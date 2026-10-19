@@ -11,17 +11,18 @@ def main() -> None:
     print(f"[OK] Split 'val' charge : {len(val)} documents")
 
     doc = val[0]
-    print(f"[OK] Premier document : {doc.docid} ({len(doc.pages)} page(s))")
+    ann = doc.annotation
+    print(f"[OK] Premier document : {doc.docid}")
+    print(f"     Pages : {ann.page_count} | Type : {ann.document_type} | "
+          f"Langue : {ann.language} | Devise : {ann.currency}")
 
-    try:
-        fields = doc.annotation.fields.get_all()
-        print(f"[OK] Champs annotes : {len(fields)}")
-        for f in fields[:5]:
-            bbox = [round(v, 3) for v in f.bbox]
-            print(f"     - {f.fieldtype} | page {f.page} | bbox {bbox} | texte: {str(f.text)[:40]}")
-    except AttributeError:
-        attrs = [a for a in dir(doc.annotation.fields) if not a.startswith("_")]
-        print(f"[!] API champs inattendue. Attributs disponibles : {attrs[:15]}")
+    fields = ann.fields
+    print(f"[OK] Champs KILE annotes : {len(fields)}")
+    for f in fields[:5]:
+        print(f"     - {f.fieldtype} | page {f.page} | bbox {f.bbox} | texte : {str(f.text)[:40]}")
+
+    ocr_words = doc.ocr.get_all_words(page=0)
+    print(f"[OK] Mots OCR pre-calcules (page 0) : {len(ocr_words)}")
 
     print("SMOKE TEST REUSSI")
 
