@@ -1,0 +1,26 @@
+# ── Données volumineuses : jamais dans le dépôt ─────────────────────────────
+data/
+models/
+*.tar
+*.tar.gz
+
+# ── Environnements et dépendances ───────────────────────────────────────────
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Artefacts de travail locaux ─────────────────────────────────────────────
+.mimosa/
+render/
+*_page_*.png
+*.log
+
+# ── Secrets et configuration locale ─────────────────────────────────────────
+.env
+.env.*
+*.token
