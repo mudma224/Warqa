@@ -1,0 +1,3 @@
+[submodule "third_party/docile"]
+	path = third_party/docile
+	url = https://github.com/rossumai/docile.git
