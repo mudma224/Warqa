@@ -1,0 +1,21 @@
+services:
+  docile:
+    build:
+      context: ../docile-upstream
+      dockerfile: Dockerfile
+    image: warqa/docile:latest
+    container_name: warqa-docile
+    working_dir: /app
+    command: sleep infinity
+    volumes:
+      - ./data/docile:/app/data/docile
+      - ./src:/app/src
+      - ./notebooks:/app/notebooks
+      - ./scripts:/app/scripts
+    ports:
+      - "8888:8888"
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
