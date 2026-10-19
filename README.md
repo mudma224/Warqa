@@ -33,6 +33,19 @@ docker compose exec docile uv run python scripts/smoke_test.py
 Le dataset doit être présent dans `data/docile/` (téléchargé via le script
 officiel du benchmark, avec token personnel — ne jamais le versionner).
 
+## Démonstration (présentation aux cabinets pilotes)
+
+```bash
+docker compose up -d demo            # construit si besoin et démarre la démo
+# puis ouvrir http://localhost:8501
+```
+
+Le jeu de factures de démonstration est régénérable via
+`docker compose exec docile uv run python scripts/prepare_demo.py`
+(sélection automatique de 15 documents à une page, riches en champs clés,
+parmi les meilleures prédictions du checkpoint officiel LayoutLMv3).
+Le script de présentation de 3 minutes est dans `docs/demo_script.md`.
+
 ## Standards
 
 - Python : PEP 8 (Ruff), typage (mypy), docstrings style Google

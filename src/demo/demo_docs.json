@@ -1,0 +1,152 @@
+[
+  {
+    "docid": "8697219373c84cb19a1da8b4",
+    "idx": 242,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "DJM Post",
+    "total": "339.62",
+    "n_key": 11,
+    "avg_score": 0.9993040372024883
+  },
+  {
+    "docid": "ff1c381e71db45aa91e0291a",
+    "idx": 497,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "DJM Post",
+    "total": "623.53",
+    "n_key": 11,
+    "avg_score": 0.9693966854331839
+  },
+  {
+    "docid": "f4e0f5809a784961a13abc80",
+    "idx": 474,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "DJM Post",
+    "total": "2,306.96",
+    "n_key": 10,
+    "avg_score": 0.9999515937434303
+  },
+  {
+    "docid": "e2c1abdb8b094fbd8ec18184",
+    "idx": 441,
+    "doctype": "order",
+    "language": "eng",
+    "vendor": "Waterfront Strategies",
+    "total": "$80,750.00",
+    "n_key": 10,
+    "avg_score": 0.9558465085246347
+  },
+  {
+    "docid": "8a3ae1a1f76c45679b9dd2d2",
+    "idx": 249,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "AAA FLAG & BANNER MFG. CO., INC.",
+    "total": "4,059.38",
+    "n_key": 9,
+    "avg_score": 0.9999947846881927
+  },
+  {
+    "docid": "6d5fa440d315476b8a1bdd1f",
+    "idx": 200,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "AAA FLAG & BANNER MFG. CO., INC.",
+    "total": "1,299.00",
+    "n_key": 9,
+    "avg_score": 0.999992949622018
+  },
+  {
+    "docid": "d9fe9accad084cadaf361ec4",
+    "idx": 417,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "Sinclair Broadcast Group Inc",
+    "total": "$2,847.50",
+    "n_key": 9,
+    "avg_score": 0.9999431526036958
+  },
+  {
+    "docid": "398a917fca1141f4be4e3e3e",
+    "idx": 103,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "KVRE-FM 92.9 CADDO BROADCASTING CO",
+    "total": "230.00",
+    "n_key": 9,
+    "avg_score": 0.999935020407041
+  },
+  {
+    "docid": "5da2509c46214a84a88b1557",
+    "idx": 173,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "The CPS Group",
+    "total": "$25.98",
+    "n_key": 9,
+    "avg_score": 0.9998951530015027
+  },
+  {
+    "docid": "90951b37e01048cb9da31d50",
+    "idx": 262,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "Desert Mountain Broadcasting",
+    "total": "$400.00",
+    "n_key": 9,
+    "avg_score": 0.9997309717265043
+  },
+  {
+    "docid": "6128062e86cd4b739962adc2",
+    "idx": 178,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "Desert Mountain Broadcasting",
+    "total": "$46.75",
+    "n_key": 9,
+    "avg_score": 0.999567323923111
+  },
+  {
+    "docid": "07214b89d1bd407b829a7847",
+    "idx": 14,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "KVRE-FM 92.9 CADDO BROADCASTING CO",
+    "total": "184.00",
+    "n_key": 9,
+    "avg_score": 0.999422530333201
+  },
+  {
+    "docid": "e85de5f667cb4b69a9a1eb2b",
+    "idx": 452,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "Group The CPS",
+    "total": "$630.00",
+    "n_key": 9,
+    "avg_score": 0.9992356571284208
+  },
+  {
+    "docid": "e286574a3f55437bb55a565f",
+    "idx": 438,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "REPORTERS",
+    "total": "315.00",
+    "n_key": 9,
+    "avg_score": 0.9984502146641413
+  },
+  {
+    "docid": "1f30ee50ea86473894d6620e",
+    "idx": 63,
+    "doctype": "tax_invoice",
+    "language": "eng",
+    "vendor": "BOZELL WORLDWIDE, INC.",
+    "total": "2,151.69",
+    "n_key": 9,
+    "avg_score": 0.9974298891377827
+  }
+]

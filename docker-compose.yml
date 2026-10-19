@@ -9,11 +9,33 @@ services:
     command: sleep infinity
     volumes:
       - ./data/docile:/app/data/docile
+      - ./models:/app/models
       - ./src:/app/src
       - ./notebooks:/app/notebooks
       - ./scripts:/app/scripts
     ports:
       - "8888:8888"
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
+
+  demo:
+    build:
+      context: ./docker
+      dockerfile: Demo.Dockerfile
+    image: warqa/demo:latest
+    container_name: warqa-demo
+    working_dir: /app/src/demo
+    command: uv run --project /app streamlit run app.py --server.port 8501 --server.address 0.0.0.0 --server.headless true
+    volumes:
+      - ./data/docile:/app/data/docile
+      - ./models:/app/models
+      - ./src:/app/src
+      - ./scripts:/app/scripts
+    ports:
+      - "8501:8501"
     deploy:
       resources:
         limits:
