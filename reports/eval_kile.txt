@@ -1,0 +1,205 @@
+/app/docile/dataset/field.py:45: UserWarning: Ignoring unexpected key groups
+  warnings.warn(f"Ignoring unexpected key {k}", stacklevel=1)
+
+Evaluation report for docile:val subsets
+========================================
+KILE
+----
+Primary metric (AP): 0.45300757429251065
+
+| subsets                      |    AP |    f1 |   precision |   recall |   TP |   FP |   FN |
+|------------------------------|-------|-------|-------------|----------|------|------|------|
+| docile:val                   | 0.453 | 0.608 |       0.611 |    0.605 | 3545 | 2254 | 2317 |
+| Dataset(docile:val-0-shot)   | 0.278 | 0.438 |       0.432 |    0.444 |  564 |  742 |  706 |
+| Dataset(docile:val-1-3-shot) | 0.421 | 0.584 |       0.598 |    0.571 |  756 |  508 |  567 |
+| Dataset(docile:val-4+-shot)  | 0.534 | 0.685 |       0.689 |    0.681 | 2225 | 1004 | 1044 |
+
+Evaluation report for docile:val
+================================
+KILE
+----
+Primary metric (AP): 0.45300757429251065
+
+| fieldtype                 |    AP |    f1 |   precision |   recall |   TP |   FP |   FN |
+|---------------------------|-------|-------|-------------|----------|------|------|------|
+| **-> micro average**      | 0.453 | 0.608 |       0.611 |    0.605 | 3545 | 2254 | 2317 |
+| account_num               | 0.444 | 0.533 |       0.667 |    0.444 |    4 |    2 |    5 |
+| amount_due                | 0.602 | 0.744 |       0.795 |    0.700 |  364 |   94 |  156 |
+| amount_paid               | 0.493 | 0.605 |       0.684 |    0.542 |   13 |    6 |   11 |
+| amount_total_gross        | 0.592 | 0.695 |       0.710 |    0.680 |  353 |  144 |  166 |
+| amount_total_net          | 0.344 | 0.500 |       0.554 |    0.456 |   31 |   25 |   37 |
+| amount_total_tax          | 0.533 | 0.659 |       0.700 |    0.622 |   28 |   12 |   17 |
+| bank_num                  | 0.333 | 0.400 |       0.500 |    0.333 |    2 |    2 |    4 |
+| bic                       | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| currency_code_amount_due  | 0.025 | 0.068 |       0.571 |    0.036 |   12 |    9 |  319 |
+| customer_billing_address  | 0.309 | 0.514 |       0.431 |    0.638 |  270 |  357 |  153 |
+| customer_billing_name     | 0.610 | 0.703 |       0.686 |    0.721 |  370 |  169 |  143 |
+| customer_delivery_address | 0.178 | 0.281 |       0.209 |    0.429 |    9 |   34 |   12 |
+| customer_delivery_name    | 0.696 | 0.691 |       0.655 |    0.731 |   19 |   10 |    7 |
+| customer_id               | 0.638 | 0.709 |       0.701 |    0.717 |  124 |   53 |   49 |
+| customer_order_id         | 0.324 | 0.420 |       0.472 |    0.378 |   17 |   19 |   28 |
+| customer_other_address    | 0.332 | 0.509 |       0.519 |    0.500 |   14 |   13 |   14 |
+| customer_other_name       | 0.431 | 0.545 |       0.554 |    0.537 |   72 |   58 |   62 |
+| customer_registration_id  | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    2 |
+| customer_tax_id           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| date_due                  | 0.736 | 0.815 |       0.889 |    0.753 |   64 |    8 |   21 |
+| date_issue                | 0.737 | 0.804 |       0.795 |    0.812 |  416 |  107 |   96 |
+| document_id               | 0.689 | 0.786 |       0.782 |    0.790 |  358 |  100 |   95 |
+| iban                      | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| order_id                  | 0.528 | 0.654 |       0.687 |    0.624 |  189 |   86 |  114 |
+| payment_reference         | 0.000 | 0.000 |       0.000 |    0.000 |    0 |  195 |   26 |
+| payment_terms             | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   35 |  165 |
+| tax_detail_gross          | 0.002 | 0.036 |       0.053 |    0.027 |    1 |   18 |   36 |
+| tax_detail_net            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    6 |   38 |
+| tax_detail_rate           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   35 |    8 |
+| tax_detail_tax            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   17 |   42 |
+| vendor_address            | 0.394 | 0.554 |       0.497 |    0.626 |  342 |  346 |  204 |
+| vendor_email              | 0.500 | 0.598 |       0.619 |    0.578 |   26 |   16 |   19 |
+| vendor_name               | 0.527 | 0.635 |       0.633 |    0.637 |  408 |  237 |  232 |
+| vendor_order_id           | 0.514 | 0.600 |       0.600 |    0.600 |    9 |    6 |    6 |
+| vendor_registration_id    | 0.500 | 0.667 |       0.500 |    1.000 |    1 |    1 |    0 |
+| vendor_tax_id             | 0.299 | 0.475 |       0.460 |    0.492 |   29 |   34 |   30 |
+
+Evaluation report for Dataset(docile:val-0-shot)
+================================================
+KILE
+----
+Primary metric (AP): 0.2782388988251342
+
+| fieldtype                 |    AP |    f1 |   precision |   recall |   TP |   FP |   FN |
+|---------------------------|-------|-------|-------------|----------|------|------|------|
+| **-> micro average**      | 0.278 | 0.438 |       0.432 |    0.444 |  564 |  742 |  706 |
+| account_num               | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    1 |
+| amount_due                | 0.311 | 0.532 |       0.615 |    0.468 |   59 |   37 |   67 |
+| amount_paid               | 0.250 | 0.500 |       0.500 |    0.500 |    1 |    1 |    1 |
+| amount_total_gross        | 0.344 | 0.515 |       0.556 |    0.480 |   60 |   48 |   65 |
+| amount_total_net          | 0.125 | 0.167 |       0.250 |    0.125 |    1 |    3 |    7 |
+| amount_total_tax          | 0.278 | 0.400 |       0.500 |    0.333 |    2 |    2 |    4 |
+| bank_num                  | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    1 |    1 |
+| bic                       | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| currency_code_amount_due  | 0.010 | 0.021 |       1.000 |    0.010 |    1 |    0 |   95 |
+| customer_billing_address  | 0.199 | 0.372 |       0.296 |    0.500 |   42 |  100 |   42 |
+| customer_billing_name     | 0.407 | 0.508 |       0.517 |    0.500 |   60 |   56 |   60 |
+| customer_delivery_address | 0.043 | 0.105 |       0.074 |    0.182 |    2 |   25 |    9 |
+| customer_delivery_name    | 0.577 | 0.519 |       0.438 |    0.636 |    7 |    9 |    4 |
+| customer_id               | 0.588 | 0.576 |       0.500 |    0.679 |   19 |   19 |    9 |
+| customer_order_id         | 0.167 | 0.211 |       0.167 |    0.286 |    2 |   10 |    5 |
+| customer_other_address    | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    1 |    3 |
+| customer_other_name       | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    5 |   14 |
+| customer_registration_id  | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| customer_tax_id           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| date_due                  | 0.026 | 0.125 |       0.333 |    0.077 |    1 |    2 |   12 |
+| date_issue                | 0.808 | 0.809 |       0.737 |    0.897 |   87 |   31 |   10 |
+| document_id               | 0.691 | 0.725 |       0.673 |    0.786 |   66 |   32 |   18 |
+| iban                      | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| order_id                  | 0.201 | 0.316 |       0.360 |    0.281 |   18 |   32 |   46 |
+| payment_reference         | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   60 |    9 |
+| payment_terms             | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    8 |   39 |
+| tax_detail_gross          | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    1 |    4 |
+| tax_detail_net            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    3 |
+| tax_detail_rate           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    4 |    0 |
+| tax_detail_tax            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    4 |
+| vendor_address            | 0.169 | 0.349 |       0.291 |    0.437 |   62 |  151 |   80 |
+| vendor_email              | 0.100 | 0.105 |       0.111 |    0.100 |    1 |    8 |    9 |
+| vendor_name               | 0.344 | 0.490 |       0.483 |    0.496 |   70 |   75 |   71 |
+| vendor_order_id           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    3 |    0 |
+| vendor_registration_id    | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| vendor_tax_id             | 0.027 | 0.158 |       0.143 |    0.176 |    3 |   18 |   14 |
+
+Evaluation report for Dataset(docile:val-1-3-shot)
+==================================================
+KILE
+----
+Primary metric (AP): 0.42126810214631205
+
+| fieldtype                 |    AP |    f1 |   precision |   recall |   TP |   FP |   FN |
+|---------------------------|-------|-------|-------------|----------|------|------|------|
+| **-> micro average**      | 0.421 | 0.584 |       0.598 |    0.571 |  756 |  508 |  567 |
+| account_num               | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    4 |
+| amount_due                | 0.494 | 0.644 |       0.752 |    0.563 |   76 |   25 |   59 |
+| amount_paid               | 0.300 | 0.364 |       0.333 |    0.400 |    2 |    4 |    3 |
+| amount_total_gross        | 0.538 | 0.667 |       0.694 |    0.642 |   77 |   34 |   43 |
+| amount_total_net          | 0.414 | 0.412 |       0.318 |    0.583 |    7 |   15 |    5 |
+| amount_total_tax          | 1.000 | 0.500 |       0.333 |    1.000 |    2 |    4 |    0 |
+| bank_num                  | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    3 |
+| bic                       | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| currency_code_amount_due  | 0.058 | 0.141 |       0.556 |    0.081 |    5 |    4 |   57 |
+| customer_billing_address  | 0.322 | 0.526 |       0.455 |    0.623 |   66 |   79 |   40 |
+| customer_billing_name     | 0.657 | 0.737 |       0.717 |    0.758 |   91 |   36 |   29 |
+| customer_delivery_address | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    3 |    0 |
+| customer_delivery_name    | 1.000 | 0.800 |       0.667 |    1.000 |    2 |    1 |    0 |
+| customer_id               | 0.680 | 0.708 |       0.622 |    0.821 |   23 |   14 |    5 |
+| customer_order_id         | 0.286 | 0.400 |       0.667 |    0.286 |    2 |    1 |    5 |
+| customer_other_address    | 0.457 | 0.571 |       0.571 |    0.571 |    4 |    3 |    3 |
+| customer_other_name       | 0.506 | 0.595 |       0.629 |    0.564 |   22 |   13 |   17 |
+| customer_registration_id  | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    1 |
+| customer_tax_id           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| date_due                  | 0.744 | 0.788 |       0.812 |    0.765 |   13 |    3 |    4 |
+| date_issue                | 0.567 | 0.667 |       0.682 |    0.652 |   88 |   41 |   47 |
+| document_id               | 0.461 | 0.642 |       0.693 |    0.598 |   61 |   27 |   41 |
+| iban                      | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| order_id                  | 0.563 | 0.700 |       0.721 |    0.681 |   49 |   19 |   23 |
+| payment_reference         | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   27 |    3 |
+| payment_terms             | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    7 |   29 |
+| tax_detail_gross          | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    6 |    5 |
+| tax_detail_net            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    4 |    8 |
+| tax_detail_rate           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    5 |    4 |
+| tax_detail_tax            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    4 |    6 |
+| vendor_address            | 0.408 | 0.556 |       0.500 |    0.625 |   60 |   60 |   36 |
+| vendor_email              | 0.200 | 0.286 |       0.500 |    0.200 |    1 |    1 |    4 |
+| vendor_name               | 0.440 | 0.556 |       0.590 |    0.526 |   92 |   64 |   83 |
+| vendor_order_id           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    1 |    0 |
+| vendor_registration_id    | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| vendor_tax_id             | 1.000 | 0.897 |       0.812 |    1.000 |   13 |    3 |    0 |
+
+Evaluation report for Dataset(docile:val-4+-shot)
+=================================================
+KILE
+----
+Primary metric (AP): 0.5335263147476408
+
+| fieldtype                 |    AP |    f1 |   precision |   recall |   TP |   FP |   FN |
+|---------------------------|-------|-------|-------------|----------|------|------|------|
+| **-> micro average**      | 0.534 | 0.685 |       0.689 |    0.681 | 2225 | 1004 | 1044 |
+| account_num               | 1.000 | 0.800 |       0.667 |    1.000 |    4 |    2 |    0 |
+| amount_due                | 0.827 | 0.881 |       0.877 |    0.884 |  229 |   32 |   30 |
+| amount_paid               | 0.578 | 0.714 |       0.909 |    0.588 |   10 |    1 |    7 |
+| amount_total_gross        | 0.729 | 0.783 |       0.777 |    0.788 |  216 |   62 |   58 |
+| amount_total_net          | 0.395 | 0.590 |       0.767 |    0.479 |   23 |    7 |   25 |
+| amount_total_tax          | 0.576 | 0.716 |       0.800 |    0.649 |   24 |    6 |   13 |
+| bank_num                  | 1.000 | 0.800 |       0.667 |    1.000 |    2 |    1 |    0 |
+| bic                       | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| currency_code_amount_due  | 0.025 | 0.065 |       0.545 |    0.035 |    6 |    5 |  167 |
+| customer_billing_address  | 0.354 | 0.565 |       0.476 |    0.695 |  162 |  178 |   71 |
+| customer_billing_name     | 0.688 | 0.770 |       0.740 |    0.802 |  219 |   77 |   54 |
+| customer_delivery_address | 0.420 | 0.609 |       0.538 |    0.700 |    7 |    6 |    3 |
+| customer_delivery_name    | 0.769 | 0.870 |       1.000 |    0.769 |   10 |    0 |    3 |
+| customer_id               | 0.644 | 0.749 |       0.804 |    0.701 |   82 |   20 |   35 |
+| customer_order_id         | 0.381 | 0.500 |       0.619 |    0.419 |   13 |    8 |   18 |
+| customer_other_address    | 0.379 | 0.541 |       0.526 |    0.556 |   10 |    9 |    8 |
+| customer_other_name       | 0.488 | 0.585 |       0.556 |    0.617 |   50 |   40 |   31 |
+| customer_registration_id  | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    1 |
+| customer_tax_id           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| date_due                  | 0.896 | 0.926 |       0.943 |    0.909 |   50 |    3 |    5 |
+| date_issue                | 0.800 | 0.867 |       0.873 |    0.861 |  241 |   35 |   39 |
+| document_id               | 0.773 | 0.857 |       0.849 |    0.865 |  231 |   41 |   36 |
+| iban                      | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    0 |    0 |
+| order_id                  | 0.638 | 0.753 |       0.777 |    0.731 |  122 |   35 |   45 |
+| payment_reference         | 0.000 | 0.000 |       0.000 |    0.000 |    0 |  108 |   14 |
+| payment_terms             | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   20 |   97 |
+| tax_detail_gross          | 0.003 | 0.050 |       0.083 |    0.036 |    1 |   11 |   27 |
+| tax_detail_net            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |    2 |   27 |
+| tax_detail_rate           | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   26 |    4 |
+| tax_detail_tax            | 0.000 | 0.000 |       0.000 |    0.000 |    0 |   13 |   32 |
+| vendor_address            | 0.496 | 0.664 |       0.620 |    0.714 |  220 |  135 |   88 |
+| vendor_email              | 0.700 | 0.787 |       0.774 |    0.800 |   24 |    7 |    6 |
+| vendor_name               | 0.648 | 0.737 |       0.715 |    0.759 |  246 |   98 |   78 |
+| vendor_order_id           | 0.526 | 0.692 |       0.818 |    0.600 |    9 |    2 |    6 |
+| vendor_registration_id    | 0.500 | 0.667 |       0.500 |    1.000 |    1 |    1 |    0 |
+| vendor_tax_id             | 0.266 | 0.473 |       0.500 |    0.448 |   13 |   13 |   16 |
+
+Notes:
+* '{dataset}-x-shot' means that the evaluation is restricted to documents from layout clusters with `x` documents for training available. Here 'training' means trainval for test and train for val.
+* '{dataset}-synth-clusters-only' means that the evaluation is restricted to documents from layout clusters for which synthetic data exists.
+* For AP all predictions are used. For f1, precision, recall, TP, FP and FN predictions explicitly marked with flag `use_only_for_ap=True` are excluded.
+
