@@ -7,7 +7,7 @@ en expliquant chaque concept de zéro, comme si tu n'avais jamais vu ce domaine.
 ## Comment utiliser cette formation
 
 1. Suis les cours **dans l'ordre** — chaque cours s'appuie sur les précédents.
-2. Garde le projet ouvert à côté (`<dossier-racine-du-depot>`) :
+2. Garde le projet ouvert à côté (dossier racine du dépôt) :
    chaque cours pointe vers de vrais fichiers, de vraies commandes, de vrais résultats.
 3. Fais les petits exercices en fin de cours (10 minutes chacun, sur papier ou terminal).
 4. En cas de doute sur un mot, va au glossaire du cours 01 puis reviens.

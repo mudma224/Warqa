@@ -24,3 +24,8 @@ render/
 .env
 .env.*
 *.token
+
+# ── Fichiers système ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
