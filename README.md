@@ -7,8 +7,6 @@ pour le cahier des charges complet.
 ## Structure du dépôt
 
 ```
-data/            Dataset DocILE et données terrain (non versionné — voir .gitignore)
-docs/            Cahier des charges, accords, scripts de génération de documents
 notebooks/       Cahiers d'exploration (dataset, évaluations)
 scripts/         Scripts d'exploitation (tests de fumée, préparation des données)
 src/             Code source du projet (moteur, démo)
