@@ -61,7 +61,7 @@ Les principes appliqués dans le projet :
 
 ## 4. L'anatomie de l'accord d'une page
 
-Le document remis aux cabinets (`docs/Warqa_Accord_Fourniture_Documents.docx`)
+Le document d'accord type remis aux cabinets
 est volontairement **asymétrique en notre défaveur** — c'est ce qui le rend
 crédible :
 

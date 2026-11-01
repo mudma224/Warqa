@@ -1,12 +1,13 @@
 # Warqa — lecture automatique des factures
 
 Plateforme expérimentale d'extraction structurée de données de factures pour la
-transition vers la facturation électronique au Maroc. Voir `docs/Warqa_Cahier_des_Charges_v1.0.docx`
-pour le cahier des charges complet.
+transition vers la facturation électronique au Maroc. Présentation du projet :
+`docs/PROJET.md`.
 
 ## Structure du dépôt
 
 ```
+docs/            Présentation du projet
 notebooks/       Cahiers d'exploration (dataset, évaluations)
 scripts/         Scripts d'exploitation (tests de fumée, préparation des données)
 src/             Code source du projet (moteur, démo)
@@ -42,7 +43,6 @@ Le jeu de factures de démonstration est régénérable via
 `docker compose exec docile uv run python scripts/prepare_demo.py`
 (sélection automatique de 15 documents à une page, riches en champs clés,
 parmi les meilleures prédictions du checkpoint officiel LayoutLMv3).
-Le script de présentation de 3 minutes est dans `docs/demo_script.md`.
 
 ## Standards
 

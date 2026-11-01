@@ -160,7 +160,7 @@ docker compose up -d demo     # démarrer (avant de partir)
 ```
 
 Le service `demo` est l'image `warqa/docile` + Streamlit (`docker/Demo.Dockerfile`),
-avec les mêmes volumes (dataset, modèles, code). Script de pitch : `docs/demo_script.md`.
+avec les mêmes volumes (dataset, modèles, code).
 
 ## À retenir
 

@@ -84,7 +84,8 @@ comptables.
 
 ## Documentation associée
 
-- Cahier des charges : `docs/Warqa_Cahier_des_Charges_v1.0.docx`
-- Accord type de fourniture de données : `docs/Warqa_Accord_Fourniture_Documents.docx`
-- Dataset DocILE : `data/docile/`
 - Structure du dépôt et environnement d'exécution : `README.md`
+- Dataset DocILE : `data/docile/` (téléchargé séparément, accès sous token
+  personnel, jamais versionné)
+- Les documents internes du projet (cahier des charges, accord type de
+  fourniture de données, script de pitch) sont conservés hors du dépôt.

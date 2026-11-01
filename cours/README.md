@@ -55,7 +55,7 @@ OCR-Projet/
 │   └── demo_docs.json    (les 15 factures de la démo)
 ├── scripts/              ← outils (smoke test, curation, évaluation)
 ├── reports/              ← rapports de métriques
-├── docs/                 ← cahier des charges, accords, script de pitch
+├── docs/                 ← présentation du projet (PROJET.md)
 ├── docker/               ← Dockerfile de la démo
 ├── docker-compose.yml    ← la définition des conteneurs
 └── cours/                ← cette formation
